@@ -3,6 +3,8 @@ from rest_framework.response import Response
 from .serializers import UserSerializer, UserRegistrationSerializer
 from .models import User
 from django.http import HttpResponseRedirect
+from rest_framework import permissions, decorators
+
 
 
 @api_view(['POST'])
@@ -15,7 +17,7 @@ def registration(request):
 
 
 @api_view(['GET'])
-# @decorators.permission_classes([permissions.IsAuthenticated])
+@decorators.permission_classes([permissions.IsAuthenticated])
 def get_user(request, pk):
     user = User.objects.get(id=pk)
     serializer = UserSerializer(user)

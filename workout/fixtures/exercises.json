@@ -3,7 +3,256 @@
         "model": "workout.Exercise",
         "fields": {
             "type": 1,
-            "name": "yoga",
+            "name": "tree pose ",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 1,
+            "name": "bridge pose",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 1,
+            "name": "low lunge",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 1,
+            "name": "triange pose",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 1,
+            "name": "bow pose",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 2,
+            "name": "roll up",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 2,
+            "name": "low lunge",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 2,
+            "name": "leg circe",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 2,
+            "name": "100s",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 2,
+            "name": "plank",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 3,
+            "name": "Biking",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 3,
+            "name": "Swimming",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 3,
+            "name": "Walking",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 3,
+            "name": "Hiking",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 3,
+            "name": "Rollerblading",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 4,
+            "name": "Squat jump",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 4,
+            "name": "Dept jump",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 4,
+            "name": "Broad jumps",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 4,
+            "name": "Tuck jumps",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    },
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 3,
+            "name": "Rollerblading",
             "reccomendation": "Workout when you are relaxed",
             "repetition": "Repeat twice per one workout, 20 times each.",
             "duration": "20 minute",
@@ -12,4 +261,6 @@
             "achievement": ""
         }
     }
+
+    
 ]
