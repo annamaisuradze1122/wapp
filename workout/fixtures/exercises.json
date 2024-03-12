@@ -1,0 +1,15 @@
+[
+    {
+        "model": "workout.Exercise",
+        "fields": {
+            "type": 1,
+            "name": "yoga",
+            "reccomendation": "Workout when you are relaxed",
+            "repetition": "Repeat twice per one workout, 20 times each.",
+            "duration": "20 minute",
+            "rest_period": "10 minute",
+            "walk": "none",
+            "achievement": ""
+        }
+    }
+]

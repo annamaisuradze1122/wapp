@@ -1,0 +1,48 @@
+[
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "monday"
+        }
+    },
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "tuesday"
+        }
+    },
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "wednesday"
+        }
+    },
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "thursday"
+        }
+
+    },
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "friday"
+        }
+
+    },
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "saturday"
+        }
+
+    },
+    {
+        "model": "workout.WorkoutDay",
+        "fields": {
+            "day": "sunday"
+        }
+
+    }
+]

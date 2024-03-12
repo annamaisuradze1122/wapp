@@ -1,0 +1,27 @@
+[
+    {
+        "model": "workout.ExerciseType",
+        "fields": {
+            "name": "yoga"
+        }
+    },
+    {
+        "model": "workout.ExerciseType",
+        "fields": {
+            "name": "pilates"
+        }
+    },
+    {
+        "model": "workout.ExerciseType",
+        "fields": {
+            "name": "aerobics"
+        }
+    },
+    {
+        "model": "workout.ExerciseType",
+        "fields": {
+            "name": "jumping"
+        }
+
+    }
+]
