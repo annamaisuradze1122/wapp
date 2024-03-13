@@ -89,4 +89,3 @@ def workout_plan(request, pk):
     if request.method == 'DELETE':
         plan.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-    

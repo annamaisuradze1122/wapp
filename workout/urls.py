@@ -20,5 +20,5 @@ urlpatterns = [
     path('goals/', get_workout_goals,  name='get_workout_goals'),
     path('plans/create', create_workout_plan,  name='create_workout_plan'), 
     path('plans/<str:pk>', workout_plan,  name='get_individual_workout_plan'),
-    path('plans/<str:pk>', workout_plan,  name='update_individual_workout_plan')
+    path('plans/<str:pk>', workout_plan,  name='update_individual_workout_plan')   
 ]
