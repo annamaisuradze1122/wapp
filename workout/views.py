@@ -6,7 +6,6 @@ from .serializers import WorkoutDaySerializer, WorkoutGoalSerializer, ExerciseTy
 from rest_framework import permissions, decorators
 
 
-
 @api_view(['GET'])
 @decorators.permission_classes([permissions.IsAuthenticated])
 def get_workout_days(request):
@@ -14,12 +13,14 @@ def get_workout_days(request):
     serializer = WorkoutDaySerializer(days, many=True)
     return Response(serializer.data)
 
+
 @api_view(['GET'])
 @decorators.permission_classes([permissions.IsAuthenticated])
 def get_exercise_types(request):
     types = ExerciseType.objects.all()
     serializer = ExerciseTypeSerializer(types, many=True)
     return Response(serializer.data)
+
 
 @api_view(['GET'])
 @decorators.permission_classes([permissions.IsAuthenticated])
@@ -45,18 +46,19 @@ def get_workout_goals(request):
     return Response(serializer.data)
 
 
-@api_view(['GET'])
+@api_view(['POST'])
 @decorators.permission_classes([permissions.IsAuthenticated])
-def get_workout_plans(request):
-    plans = WorkoutPlan.objects.all()
-    serializer = WorkoutPlanSerializer(plans, many=True)
-    return Response(serializer.data)
+def create_workout_goals(request):
+    serializer = WorkoutGoalSerializer(data=request.data)
+    serializer.is_valid(raise_exception=True)
+    serializer.save()
+    return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 @api_view(['POST'])
 @decorators.permission_classes([permissions.IsAuthenticated])
 def create_workout_plan(request):
-    serializer = WorkoutPlanSerializer(data=request.data, many=True)
+    serializer = WorkoutPlanSerializer(data=request.data)
     serializer.is_valid(raise_exception=True)
     serializer.save()
     return Response(serializer.data, status=status.HTTP_201_CREATED)

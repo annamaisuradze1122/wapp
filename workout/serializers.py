@@ -1,9 +1,6 @@
 from rest_framework import serializers
 from .models import WorkoutDay, WorkoutGoal, WorkoutPlan, Exercise, ExerciseType
 
-# workingday ['GET'], exc.type['get], exercises['get'],['filter'],
-#  goals[get], workingplan [get], + pagination + filter.
-
 
 class WorkoutDaySerializer(serializers.ModelSerializer):
     class Meta:
@@ -20,8 +17,7 @@ class WorkoutGoalSerializer(serializers.ModelSerializer):
 class WorkoutPlanSerializer(serializers.ModelSerializer):
     class Meta:
         model = WorkoutPlan
-        fields = '__all__'
-
+        fields = ['name', 'workout_goals', 'workout_days', 'exercises']
 
 
 class ExerciseTypeSerializer(serializers.ModelSerializer):

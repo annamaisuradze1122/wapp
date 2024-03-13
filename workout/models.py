@@ -10,7 +10,7 @@ class WorkoutDay(models.Model):
         ('wednesday','WEDNESDAY'),
         ('thursday', 'THURSDAY'),
         ('friday', 'FRIDAY'),
-        ('saturday','SATURDAY'),
+        ('saturday', 'SATURDAY'),
     )
     day = models.CharField(choices=DAYS, max_length=30)
 
