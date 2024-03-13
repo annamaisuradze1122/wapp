@@ -1,0 +1,20 @@
+[
+    {
+        "model": "workout.WorkoutGoal",
+        "fields": {
+            "name": "Loose Fat"
+        }
+    },
+    {
+        "model": "workout.WorkoutGoal",
+        "fields": {
+            "name": "Get in shape"
+        }
+    },
+    {
+        "model": "workout.WorkoutGoal",
+        "fields": {
+            "name": "Be in tonus"
+        }
+    }
+]
