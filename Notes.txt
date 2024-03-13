@@ -1,7 +1,0 @@
-Working with API
-
-1 - create folder "api"
-2 - add the following files in it: __init__.py, views.py, urls.py, serializers.py
-3 - Install djangi resxt framework, add it in the 
-
-    
